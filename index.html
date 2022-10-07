@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AKA BEER</title>
+
+    <!--favicon-->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/akabeer_favicon.png">
+
+    <!--web font-->
+    <link href="https://webfontworld.github.io/SCoreDream/SCoreDream.css" rel="stylesheet">
+    <link href="https://webfontworld.github.io/goodchoice/Jalnan.css" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/blacksword" rel="stylesheet">
+    
+
+    <!--css_start-->
+    <link rel="stylesheet" href="css/main_style.css">
+    <!--scroll slide-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--slick slide-->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <!--top button-->
+    <link rel="stylesheet" href="css/top_button.css">
+    <!--sider menu-->
+    <link rel="stylesheet" href="css/sider_menu.css">
+    <!--css_end-->
+
+    <!--js_start-->
+    <!--scroll slide-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/scroll_slide/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <script src="js/scroll_slide/script.js"></script>
+    <!--fade-->
+    <script src="js/fade/jquery-1.12.4.min.js"></script>
+    <script src="js/fade/script.js"></script>
+    <!--top button-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <script src="js/top_button/script.js"></script>
+    <!--sider menu-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/sider_menu/script.js"></script>
+    <!--js_end-->
+</head>
+
+<body>
+    <!--header_start-->
+    <!--header-->
+        <div id="header">
+            <div class="head_logo">
+                <a href="index.html"><img src="images/header/head_logo.png" alt=""></a>
+            </div>
+            <ul class="gnb">
+                <li><a href="index.html#brewery">BREWERY</a></li>
+                <li><a href="index.html#beer">BEER</a></li>
+                <li><a href="index.html#pub_wrap">AKA PUB</a></li>
+                <li>
+                    <a href="javascript:return false;">ABOUT US</a>
+                    <ul class="submenu">
+                        <li><a href="index.html#about_us">ABOUT US</a></li>
+                        <li><a href="index.html#brand_symbol">BRAND SYMBOL</a></li>
+                        <li><a href="index.html#strong_point">STRONG POINT</a></li>
+                    </ul>
+                </li>
+            </ul>  
+        </div>
+    <!--header mobile-->
+    <div id="header_mobile">
+        <div class="menu_btn">
+            <a href="#">       
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjQgNmgtMjR2LTRoMjR2NHptMCA0aC0yNHY0aDI0di00em0wIDhoLTI0djRoMjR2LTR6Ii8+PC9zdmc+">
+            </a>
+        </div>
+    </div>
+    <div class="menu_bg"></div>
+    <div class="sidebar_menu">
+        <div class="close_btn"><a href="#">       
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjMuOTU0IDIxLjAzbC05LjE4NC05LjA5NSA5LjA5Mi05LjE3NC0yLjgzMi0yLjgwNy05LjA5IDkuMTc5LTkuMTc2LTkuMDg4LTIuODEgMi44MSA5LjE4NiA5LjEwNS05LjA5NSA5LjE4NCAyLjgxIDIuODEgOS4xMTItOS4xOTIgOS4xOCA5LjF6Ii8+PC9zdmc+">
+            </a>
+        </div>
+        <ul class="menu_wrap">
+            <li><a href="index.html#brewery_mobile">BREWERY</a></li>
+            <li><a href="index.html#beer_mobile">BEER</a></li>
+            <li><a href="index.html#pub_mobile">AKA PUB</a></li>
+            <li><a href="index.html#about_us_mobile">ABOUT US</a></li>
+        </ul>
+    </div>
+    <!--header_end-->
+
+    <!--top button-->
+    <div class="top fixed"><a href="#"><img src="images/top.png" alt="top"></a></div>
+    
+    <!--banner-->
+    <div id="banner">
+        <video muted="" preload="true" loop autoplay webkit-playsinline="webkit-playsinline" playsinline="playsinline">
+            <source src="video/영상.mp4" type="video/mp4">
+        </video>
+   </div>
+
+    <!--section1_start-->
+    <!--beer-->
+    <div id="beer">
+        <p class="title beer_title">BEER</p>
+        <ul class="beer_list">
+            <li>
+                <a href="javascript:return false;">
+                    <img src="images/beer/pine_apala.png" alt="">
+                    <div class="beer_list_text pine_apala">
+                        <p class="pine_apala_text">
+                            하와이하면 딱! 떠오르는<br>
+                            파인애플로 만든 독특한 페일에일
+                            <span>
+                                VOL. 330mL<br>
+                                ABV. 4.2%<br>
+                                IBU. 10
+                            </span>
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:return false;">
+                    <img src="images/beer/anu.png" alt="">
+                    <div class="beer_list_text anu">
+                        <p class="anu_text">
+                            하와이의 에메랄드빛 바다의<br>
+                            시원함을 담은 페일라거
+                            <span>
+                                VOL. 330mL<br>
+                                ABV. 4.8%<br>
+                                IBU. 20  
+                            </span>
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:return false;">
+                    <img src="images/beer/alani.png" alt="">
+                    <div class="beer_list_text alani">
+                        <p class="alani_text">
+                            하와이의 아름다운 주황빛 노을을<br>
+                            닮은 오렌지 페일에일
+                            <span>
+                                VOL. 330mL<br>
+                                ABV. 4.5%<br>
+                                IBU. 16
+                            </span>
+                        </p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="beer_sign"><img src="images/beer/beer_sign.png" alt=""></div>
+        <div class="fresh_sign"><img src="images/beer/fresh_sign.png" alt=""></div>
+        <div class="aloha_sign"><img src="images/beer/aloha_sign.png" alt=""></div>
+    </div>
+    <!--beer mobile-->
+    <div id="beer_mobile">
+        <p class="title">BEER</p>
+        <section class="center slider">
+            <div>
+                <img src="images/beer/pine_apala_m.png">
+                <p>
+                    하와이하면 딱! 떠오르는<br>
+                    파인애플로 만든 독특한<br>
+                    페일에일
+                    <span>
+                        VOL. 330mL<br>
+                        ABV. 4.2%<br>
+                        IBU. 10
+                    </span>
+                </p>       
+            </div>
+            <div>
+                <img src="images/beer/anu_m.png">
+                <p>
+                    하와이의 에메랄드빛<br>
+                    바다의 시원함을 담은<br>
+                    페일라거
+                    <span>
+                        VOL. 330mL<br>
+                        ABV. 4.8%<br>
+                        IBU. 20  
+                    </span>
+                </p>
+            </div>
+            <div>
+                <img src="images/beer/alani_m.png">
+                <p>
+                    하와이의 아름다운 주황빛<br>
+                    노을을 닮은 오렌지<br>
+                    페일에일
+                    <span>
+                        VOL. 330mL<br>
+                        ABV. 4.5%<br>
+                        IBU. 16
+                    </span>
+                </p>
+            </div>
+        </section>
+    </div>
+    <!--slick slide js-->
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="js/slick_slider/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/slick_slider/script.js" type="text/javascript"></script>
+    <!--section1_end-->
+
+    <!--section2_start-->
+    <!--aka pub-->
+    <div id="pub_wrap"><!--pub 전체-->
+        <div class="pub">
+            <p class="title">AKA PUB</p>
+            <ul class="pub_photo" data-aos="fade-down" data-aos-duration="1500">
+                <li><img src="images/pub/polarloid/L1.png" alt=""></li>
+                <li><img src="images/pub/polarloid/L2.png" alt=""></li>
+                <li><img src="images/pub/polarloid/M.png" alt=""></li>
+                <li><img src="images/pub/polarloid/R1.png" alt=""></li>
+                <li><img src="images/pub/polarloid/R2.png" alt=""></li>
+            </ul>
+            <div data-aos="fade-up" data-aos-duration="1500">
+                <ul class="pub_text" >
+                    <li><img src="images/pub/text/marks_L.png" alt=""></li>
+                    <li>
+                        어딘가로 멀리 떠나보고 싶지만 바쁜 현대사회에서 열심히 하루를 보내시는<br>
+                        여러분의 스트레스 해소를 위해 저희 AKA BEER가 준비했습니다!<br>
+                        하와이를 담아낸 독특한 맥주와 그에 어울리는 다채로운 메뉴들을<br>
+                        AKA PUB으로 오셔서 즐겨보세요!
+                    </li>
+                    <li><img src="images/pub/text/marks_R.png" alt=""></li>
+                </ul>
+                <div class="pub_location">
+                    <div class="location_left">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d815.5556379020691!2d129.11633861898554!3d35.1510700440756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568ed263cc80f3f%3A0x8568f436529ac104!2z67aA7IKw6rSR7Jet7IucIOyImOyYgeq1rCDqtJHslYjtlbTrs4DroZwgMTg3!5e0!3m2!1sko!2skr!4v1662529676936!5m2!1sko!2skr" width="770" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="location_right">
+                        <div class="location_right_title">
+                            <p>AKA PUB LOCATION</p>
+                        </div>
+                        <ul class="location_right_text">
+                            <li>
+                                <p>
+                                    Business hours
+                                <span>Tue ~ Sun, PM 06:00 ~ AM 01:00</span>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Tel
+                                    <span>051 - 208 - 5990</span>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Adress
+                                    <span>187, Gwanganhaebyeon-ro, Suyeong-gu, Busan</span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--aka pub mobile-->
+    <div id="pub_mobile">
+        <p class="title">AKA PUB</p>
+        <ul class="pub_mobile_photo" data-aos="fade-up" data-aos-duration="1500">
+            <li><img src="images/pub/polarloid/T1.png" alt=""></li>
+            <li><img src="images/pub/polarloid/T2.png" alt=""></li>
+            <li><img src="images/pub/polarloid/M_m.png" alt=""></li>
+            <li><img src="images/pub/polarloid/B1.png" alt=""></li>
+            <li><img src="images/pub/polarloid/B2.png" alt=""></li>
+        </ul> 
+        <ul class="pub_mobile_text" data-aos="fade-up" data-aos-duration="1500">
+            <li><img src="images/pub/text/marks_L_m.png" alt=""></li>
+            <li>
+                어딘가로 멀리 떠나보고 싶지만<br>
+                바쁜 현대사회에서 열심히 하루를 보내시는<br>
+                여러분의 스트레스 해소를 위해<br>
+                저희 AKA BEER가 준비했습니다!<br>
+                하와이를 담아낸 독특한 맥주와<br>
+                그에 어울리는 다채로운 메뉴들을<br>
+                AKA PUB으로 오셔서 즐겨보세요!
+            </li>
+            <li><img src="images/pub/text/marks_R_m.png" alt=""></li>
+        </ul>
+        <div class="pub_mobile_location" data-aos="fade-up" data-aos-duration="1500">
+            <div class="location_mobile_title">AKA PUB LOCATIN</div>
+            <ul class="location_mobile_text">
+                <li>
+                    <span>Business hours</span>
+                    Tue ~ Sun, PM 06:00 ~ AM 01:00
+                </li>
+                <li>
+                    <span>Tel</span>
+                    051 - 208 - 5990
+                </li>
+                <li>
+                    <span>Adress</span>
+                    187, Gwanganhaebyeon-ro, Suyeong-gu, Busan    
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--sectoin2_end-->
+
+    <!--section3_start-->
+    <!--brewery-->
+    <div id="brewery">
+        <p class="title">BREWERY</p>
+        <ul class="brewery_left" data-aos="fade-left" data-aos-duration="1700">
+            <li><img src="images/brewery/L1.png" alt=""></li>
+            <li><img src="images/brewery/L2.png" alt=""></li>
+            <li><img src="images/brewery/L3.png" alt=""></li>
+        </ul>
+        <div class="brewery_right" data-aos="fade-right" data-aos-duration="1700">
+            <p class="brewery_right_title" >High Quality & Trendy</p>
+            <p class="brewery_right_text">
+                청명한 가을 하늘처럼 맑고 얼음처럼 차가운 계곡물,<br>
+                시원한 나무 그늘을 산책하고 싶은 기분이 들게 하는 울창한 숲,<br>
+                독특한 먹거리와 쇼핑, 레저 등 <span>트렌디</span>한 문화를 즐길 수 있는 부산 기장에 위치하고 있습니다.<br>
+                품질을 인정받은 최고급 홉과 맥아만을 사용하며, 매일매일 위생과 청결을 신경 쓰고,<br>
+                장비에 결함이 없는지 검사하여 <span>높은 퀄리티</span>를 가진 맥주를 제공하기 위해 노력하고 있습니다.
+            </p>
+            <ul class="brewery_photo">
+                <li><img src="images/brewery/R1.png" alt=""></li>
+                <li><img src="images/brewery/R2.png" alt=""></li>
+                <li><img src="images/brewery/R3.png" alt=""></li>
+                <li><img src="images/brewery/R4.png" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    <!--brewery mobile-->
+    <div id="brewery_mobile">
+        <p class="title">BREWERY</p>
+        <ul class="brewery_mobile_photo1" data-aos="fade-up" data-aos-duration="1700">
+            <li><img src="images/brewery/L1_m.png" alt=""></li>
+            <li><img src="images/brewery/L2_m.png" alt=""></li>
+            <li><img src="images/brewery/L3_m.png" alt=""></li>
+        </ul>  
+        <ul class="brewery_mobile_photo2" data-aos="fade-up" data-aos-duration="1700">
+            <li><img src="images/brewery/R1.png" alt=""></li>
+            <li><img src="images/brewery/R2.png" alt=""></li>
+            <li><img src="images/brewery/R3.png" alt=""></li>
+            <li><img src="images/brewery/R4.png" alt=""></li>
+        </ul>
+        <div data-aos="fade-up" data-aos-duration="1700">
+            <p class="brewery_mobile_title">High Quality & Trendy</p>
+            <p class="brewery_mobile_text">
+                청명한 가을 하늘처럼 맑고 얼음처럼 차가운 계곡물,<br>
+                시원한 나무 그늘을 산책하고 싶은 기분이 들게 하는 울창한 숲,<br>
+                독특한 먹거리와 쇼핑, 레저 등 <span>트렌디</span>한 문화를 즐길 수 있는<br>
+                부산 기장에 위치하고 있습니다.<br>
+                품질을 인정받은 최고급 홉과 맥아만을 사용하며,<br>
+                매일매일 위생과 청결을 신경 쓰고, 장비에 결함이 없는지 검사하여<br>
+                <span>높은 퀄리티</span>를 가진 맥주를 제공하기 위해 노력하고 있습니다.
+            </p>
+        </div>
+    </div>
+    <!--section3_end-->
+
+    <!--section4_start-->
+    <!--about us-->
+    <div id="about_us">
+        <p class="title">ABOUT US</p>
+        <div class="about_us_top" data-aos="fade-right" data-aos-duration="1500"><img src="images/about_us/top.png" alt=""></div>
+        <ul class="about_us_middle" data-aos="fade-left" data-aos-duration="1500">
+            <li class="about_us_text">
+                <span>
+                    We'll take responsibility<br>
+                    for your laughter !
+                </span>
+                하와이어로 '웃다'를 '`aka`aka' 라고 합니다.<br>
+                'AKA' BEER라는 이름에 알맞게<br>
+                여러분의 환한 웃음을 책임지도록 하겠습니다.
+            </li>
+            <li><img src="images/about_us/middle.png" alt=""></li>
+        </ul>
+        <ul class="about_us_bottom" data-aos="fade-right" data-aos-duration="1500">
+            <li><img src="images/about_us/bottom1.png" alt=""></li>
+            <li class="about_us_text">
+                <span>
+                    A spoonful of novelty in<br>
+                    boring daily life !
+                </span>
+                AKA BEER는 맥주를 한 모금 마시는 순간,<br>
+                매일매일 똑같고 지루한 일상에<br>
+                짜릿한 새로움을 선사하는 브랜드입니다.
+            </li>
+            <li><img src="images/about_us/bottom2.png" alt=""></li>
+        </ul>
+    </div>
+    <!--about us mobile-->
+    <div id="about_us_mobile">
+        <P class="title">ABOUT US</P>
+        <ul>
+            <li data-aos="fade-up" data-aos-duration="1500"><img src="images/about_us/top1_m.png" alt=""></li>
+            <li data-aos="fade-up" data-aos-duration="1500"><img src="images/about_us/top2_m.png" alt=""></li>
+            <li class="about_us_mobile_text" data-aos="fade-up" data-aos-duration="1500">
+                <span>
+                We'll take responsibility<br>
+                for your laughter !
+                </span>
+                하와이어로 '웃다'를 '`aka`aka' 라고 합니다.<br>
+                'AKA' BEER라는 이름에 알맞게<br>
+                여러분의 환한 웃음을 책임지도록 하겠습니다.
+            </li>
+            <li data-aos="fade-up" data-aos-duration="1500"><img src="images/about_us/bottom1_m.png" alt=""></li>
+            <li data-aos="fade-up" data-aos-duration="1500"><img src="images/about_us/bottom2_m.png" alt=""></li>
+            <li class="about_us_mobile_text" data-aos="fade-up" data-aos-duration="1500">
+                <span>
+                    A spoonful of novelty in<br>
+                    boring daily life !
+                </span>
+                AKA BEER는 맥주를 한 모금 마시는 순간,<br>
+                매일매일 똑같고 지루한 일상에<br>
+                짜릿한 새로움을 선사하는 브랜드입니다.
+            </li>
+        </ul>
+    </div>
+    <!--section4_end-->
+
+    <!--section5_start-->
+    <!--brand symbol-->
+    <div id="brand_symbol">
+        <p class="title">BRAND SYMBOL</p>
+        <ul class="symbol_photo">
+            <li>
+                <div data-aos="fade-up" data-aos-duration="1500">
+                    <img src="images/brand_symbol/hawaii_logo.png" alt="">
+                    <p class="symbol_text">
+                        하와이를 상징할 수 있는 길게 뻗은 야자수와<br>
+                        주황빛 노을, 에메랄드빛 바다를 형상화
+                    </p>
+                </div>
+            </li>
+            <li><img src="images/brand_symbol/+.png" alt=""></li>
+            <li>
+                <div data-aos="fade-up" data-aos-duration="1500">
+                    <img src="images/brand_symbol/beer_logo.png" alt="">
+                    <p class="symbol_text">
+                        맥주 브랜드임을 강조하기 위해서<br>
+                        브랜드 네임과 병맥주를 추가 삽입
+                    </p>
+                </div>
+            </li>
+            <li><img src="images/brand_symbol/=.png" alt=""></li>
+            <li>
+                <div data-aos="fade-up" data-aos-duration="1500">
+                    <img src="images/brand_symbol/akabeer_logo.png" alt="">
+                    <p class="symbol_text">AKA BEER 로고 탄생 !</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!--brand symbol mobile-->
+    <div id="brand_symbol_mobile">
+        <p class="title">BRAND SYMBOL</p>
+        <ul class="symbol_mobile">
+            <li>
+                <div data-aos="fade-up" data-aos-duration="1500">
+                    <img src="images/brand_symbol/hawaii_logo_m.png" alt="">
+                    <p class="symbol_mobile_text">
+                        하와이를 상징할 수 있는 길게 뻗은 야자수와<br>
+                        주황빛 노을, 에메랄드빛 바다를 형상화 
+                    </p>
+                </div>
+            </li>
+            <li><img src="images/brand_symbol/+_m.png" alt=""></li>
+            <li>
+                <div data-aos="fade-up" data-aos-duration="1500">
+                    <img src="images/brand_symbol/beer_logo_m.png" alt="">
+                    <p class="symbol_mobile_text">
+                        하와이로만 맥주 브랜드임을 표현하기엔<br>
+                        한계가 있어 브랜드 네임과 병맥주 삽입
+                    </p>
+                </div>
+            </li>
+            <li><img src="images/brand_symbol/=_m.png" alt=""></li>
+            <li>
+                <div data-aos="fade-up" data-aos-duration="1500">
+                    <img src="images/brand_symbol/akabeer_logo_m.png" alt="">
+                    <p class="symbol_mobile_text">AKA BEER 로고 탄생 !</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!--section5_end-->
+
+    <!--section6_start-->
+    <!--strong point-->
+    <div id="strong_point">
+        <p class="title">STRONG POINT</p>
+        <div class="point">
+            <ul class="point_left">
+                <li>
+                    <a href="javascript:return false;">
+                        <img src="images/strong_point/point1.png" alt="">
+                        <div class="point_text">
+                            <ul class="confidence">
+                                <li><img src="images/strong_point/confidence_icon.png" alt=""></li>
+                                <li>CONFIDENCE</li>
+                                <li>
+                                    서로서로를 신뢰하기 위한 동료 존중<br>
+                                    혼자가 아닌 함께 걸어가는 공동체 의식<br>
+                                    편하게 자신의 의견을 낼 수 있는 분위기
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:return false;">
+                        <img src="images/strong_point/point2.png" alt="">
+                        <div class="point_text">
+                            <ul class="challenge">
+                                <li><img src="images/strong_point/challenge_icon.png" alt=""></li>
+                                <li>CHALLENGE</li>
+                                <li>
+                                    끊임없는 연구 개발을 통한 독특한 제품 출시<br>
+                                    하와이 현지를 그대로 담아내기 위한 문화 연구
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="point_middle">
+                마우스 커서를 맥주 위에 올려보세요!<br>
+                AKA BEER만의 독특한 장점을<br>
+                확인하실 수 있습니다!
+            </div>
+            <ul class="point_right">
+                <li>
+                    <a href="javascript:return false;">
+                        <img src="images/strong_point/point3.png" alt="">
+                        <div class="point_text">
+                            <ul class="devotion">
+                                <li><img src="images/strong_point/devotion_icon.png" alt=""></li>
+                                <li>DEVOTION</li>
+                                <li>
+                                    도움이 필요한 곳에 일부 수익 기부<br>
+                                    고객 니즈 파악을 위한 다양한 행사 개최
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:return false;">
+                        <img src="images/strong_point/point4.png" alt="">
+                        <div class="point_text">
+                            <ul class="responsibility">
+                                <li><img src="images/strong_point/responsibility_icon.png" alt=""></li>
+                                <li>RESPONSIBILITY</li>
+                                <li>
+                                    독일 등 현지 청정지역의 품질 좋은 원재료 엄선<br>
+                                    맥주 강국 유럽의 최고급 양조설비 사용<br>
+                                    퀄리티 담당 부서를 통한 엄격한 검수
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--strong point mobile-->
+    <div id="strong_point_mobile">
+        <p class="title">STRONG POINT</p>
+        <ul class="point_mobile">
+            <li>
+                <a href="javascript:return false;">
+                    <img src="images/strong_point/point1_m.png" alt="">
+                    <div class="point_mobile_text">
+                        <ul class="confidence_mobile">
+                            <li><img src="images/strong_point/confidence_icon_m.png" alt=""></li>
+                            <li>CONFIDENCE</li>
+                            <li>
+                                서로서로를 신뢰하기 위한 동료 존중<br>
+                                혼자가 아닌 함께 걸어가는 공동체 의식<br>
+                                편하게 자신의 의견을 낼 수 있는 분위기
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:return false;">
+                    <img src="images/strong_point/point2_m.png" alt="">
+                    <div class="point_mobile_text">
+                        <ul class="challenge_mobile">
+                            <li><img src="images/strong_point/challenge_icon_m.png" alt=""></li>
+                            <li>CHALLENGE</li>
+                            <li>
+                                끊임없는 연구 개발을 통한 독특한 제품 출시<br>
+                                하와이 현지를 그대로 담아내기 위한 문화 연구
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:return false;">
+                    <img src="images/strong_point/point3_m.png" alt="">
+                    <div class="point_mobile_text">
+                        <ul class="devotion_mobile">
+                            <li><img src="images/strong_point/devotion_icon_m.png" alt=""></li>
+                            <li>DEVOTION</li>
+                            <li>
+                                도움이 필요한 곳에 일부 수익 기부<br>
+                                고객 니즈 파악을 위한 다양한 행사 개최
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:return false;">
+                    <img src="images/strong_point/point4_m.png" alt="">
+                    <div class="point_mobile_text">
+                        <ul class="responsibility_mobile">
+                            <li><img src="images/strong_point/responsibility_icon_m.png" alt=""></li>
+                            <li>RESPONSIBILITY</li>
+                            <li>
+                                독일 등 현지 청정지역의 품질 좋은 원재료 엄선<br>
+                                맥주 강국 유럽의 최고급 양조설비 사용<br>
+                                퀄리티 담당 부서를 통한 엄격한 검수
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="point_mobile_explain">
+            맥주를 손가락으로 터치해보세요!<br>
+            AKA BEER만의 독특한 장점을<br>
+            확인하실 수 있습니다!
+        </div>
+    </div>
+    <!--section6_end-->
+
+    <!--footer_start-->
+    <!--footer-->
+    <div id="footer_wrap"><!--footer 전체-->
+        <div class="footer">
+            <p class="footer_text">
+                Adress. 14, Jungang-daero, Jung-gu, Busan<br>
+                Email. akabeer@gmail.com<br>
+                Tel. 051-2018-0601<br>
+                Copyright © Aka Beer Company. All right reserved.
+            </p>
+            <div class="foot_logo"><a href="index.html"><img src="images/footer/foot_logo.png" alt=""></a></div>
+            <ul class="sns_icon">
+                <li>
+                    <a href="javascript:return false;">
+                        <img src="images/footer/icon_facebook.png" alt="">
+                        <div class="sns_icon_hover"><img src="images/footer/icon_facebook_h.png" alt=""></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:return false;">
+                        <img src="images/footer/icon_twitter.png" alt="">
+                        <div class="sns_icon_hover"><img src="images/footer/icon_twitter_h.png" alt=""></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:return false;">
+                        <img src="images/footer/icon_instagram.png" alt="">
+                        <div class="sns_icon_hover"><img src="images/footer/icon_instagram_h.png" alt=""></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:return false;">
+                        <img src="images/footer/icon_youtube.png" alt="">
+                        <div class="sns_icon_hover"><img src="images/footer/icon_youtube_h.png" alt=""></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--footer mobile-->
+    <div id="footer_mobile_wrap">
+        <div class="footer_mobile">
+            <ul class="sns_icon_mobile">
+                <li>
+                    <a href="javascript:return false;">
+                        <img src="images/footer/icon_facebook_m.png" alt="">
+                        <div class="sns_icon_hover_mobile"><img src="images/footer/icon_facebook_m_h.png" alt=""></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:return false;">
+                        <img src="images/footer/icon_twitter_m.png" alt="">
+                        <div class="sns_icon_hover_mobile"><img src="images/footer/icon_twitter_m_h.png" alt=""></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:return false;">
+                        <img src="images/footer/icon_instagram_m.png" alt="">
+                        <div class="sns_icon_hover_mobile"><img src="images/footer/icon_instagram_m_h.png" alt=""></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:return false;">
+                        <img src="images/footer/icon_youtube_m.png" alt="">
+                        <div class="sns_icon_hover_mobile"><img src="images/footer/icon_youtube_m_h.png" alt=""></div>
+                    </a>
+                </li>
+            </ul>
+            <p class="footer_mobile_text">
+                Adress. 14, Jungang-daero, Jung-gu, Busan<br>
+                Email. akabeer@gmail.com<br>
+                Tel. 051-2018-0601<br>
+                Copyright © Aka Beer Company. All right reserved.
+            </p>
+            <div class="foot_logo_mobile"><img src="images/footer/foot_logo_m.png" alt=""></div>
+        </div>
+    </div>
+    <!--footer_end-->
+</body>
+</html>
